@@ -1,0 +1,152 @@
+<style>
+    
+.container {  
+  display: flex;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 30px;
+  padding-right: 30px;
+  float: right;
+}
+.logo{
+    position: relative;
+    bottom: 5px;
+    opacity: 65%;
+}
+.logo:hover{
+    opacity: 100%;
+}
+.user {
+    border-radius: 20px;
+}
+.container li {
+    padding: 6px;
+    
+}
+.search-bar {
+    width: 450px;
+}
+nav {
+    min-width: 1000px;
+}
+li{
+    list-style-type: none;
+}
+.img_google {
+
+    padding-top: 150px;
+    margin-bottom: 25px;
+}
+.all-data {
+    text-align: center;
+}
+.button{
+    padding-top: 25px;
+    padding-bottom: 32px;
+}
+.police {
+    font-size: 13px;
+    font-family: arial,sans-serif;
+    color: rgba(0,0,0,0.87);;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 15px;
+    width: 100%;
+}
+.footer div {
+    color: rgba(0,0,0,.54);
+    background-color: #f2f2f2;
+    padding:10px;
+    border-top: solid 1px #e4e4e4 ;
+    min-width: 1000px;
+
+}
+.footer a {
+    color: rgba(0,0,0,.54);
+    margin-right: 10px;
+    
+}
+footer span {
+    margin-left: 10px;
+}
+
+.droite{
+    float: right;
+}
+</style>
+
+<!DOCTYPE html>
+<html lang="FR">
+<head>
+    <title>Google</title>
+    <link rel="icon" type="image/png" href="https://www.google.com/favicon.ico">
+    <meta charset="UTF-8">
+</head>
+<header>
+    <nav>
+        <ul class="container police">
+            <li>
+                <a href="#" alt="Lien vers Gmail">Gmail</a>
+            </li>
+            <li>
+                <a href="#" alt="Lien vers Image">Images</a>
+            </li>
+            <li>
+                <a href="#"><img class="logo" src="https://ncd123.github.io/google-homepage/img/menu-icon.png" width="30px" height="30px"></a>
+            </li>
+            <li>
+                <a href="#"><img class="user" src="https://lh3.googleusercontent.com/ogw/ADGmqu-3nVKE2SBzharoPV_9mWVDaN1b49rJmSMnqZjC=s32-c-mo" width="30px" height="30px"></a>
+
+            </li>
+        </ul>        
+    </nav>
+</header>
+<body>
+<div class="all-data">
+    <div class="img_google">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Logo de google">
+    </div>
+    <div>
+        <input class="search-bar" type="text">
+    </div>
+    <div class="button">
+        <input type="button" value="Recherche Google">
+        <input type="button" value="J'ai de la chance">
+    </div>
+    <div class="police">
+        Google disponible en : <a href="#" alt="Lien vers English" style="color: blue;">English</a>
+    </div>
+</div>
+</div>
+</body>
+<footer class="footer police">
+    <div>
+    <span class="pays">France</span>
+    </div>
+    <div>
+    <span class="gauche">
+        <a href="#">Publicité</a>
+        <a href="#">Entreprise</a>
+        <a href="#">A propos</a>
+        <a href="#">Comment fonctionne la recherche Google ?</a>
+    </span>
+    <span class="droite">
+        <a href="#">Info consommateurs</a>
+        <a href="#">Confidentialité</a>
+        <a href="#">Conditions</a>
+        <a href="#">Paramètres</a>
+    </span>
+    </div>
+</footer>
+</html>
