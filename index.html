@@ -1,5 +1,4 @@
 <style>
-    
 .container {  
   display: flex;
   margin-left: 0 !important;
@@ -23,8 +22,19 @@
     padding: 6px;
     
 }
+.loupe {
+    position: relative;
+    opacity: 75%;
+    left: 40px;
+    top: 5px;
+
+}
 .search-bar {
     width: 450px;
+    height: 40px;
+    border-radius: 20px;
+    border: solid 1px rgba(0, 0, 0, 0.151);
+
 }
 nav {
     min-width: 1000px;
@@ -43,6 +53,19 @@ li{
 .button{
     padding-top: 25px;
     padding-bottom: 32px;
+}
+[type=button]{
+    border: 1px solid #f2f2f2;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    width: 140px;
+    height: 35px;
+
+}
+[type=button]:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    border: 1px solid #c6c6c6;
+    background-color: #f8f8f8;
 }
 .police {
     font-size: 13px;
@@ -118,7 +141,9 @@ footer span {
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Logo de google">
     </div>
     <div>
+        <img class="loupe" src="https://icon-library.com/images/google-search-magnifying-glass-icon/google-search-magnifying-glass-icon-5.jpg" width="20px" height="20px">
         <input class="search-bar" type="text">
+        
     </div>
     <div class="button">
         <input type="button" value="Recherche Google">
